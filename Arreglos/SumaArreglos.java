@@ -3,8 +3,8 @@ class SumaArreglos
 {
 	public static void main (String [] args)
   	{
-  		int a1, a2, a3, a4, a5, b1, b2, b3, b4, b5; 
-  		String  a1Cad, a2Cad, a3Cad, a4Cad, a5Cad, b1Cad, b2Cad, b3Cad, b4Cad, b5Cad; 
+  		int a1, a2, a3, a4, a5, b1, b2, b3, b4, b5;
+  		String  a1Cad, a2Cad, a3Cad, a4Cad, a5Cad, b1Cad, b2Cad, b3Cad, b4Cad, b5Cad;
 
  		InputStreamReader isr = new InputStreamReader(System.in);
 		BufferedReader flujoE = new BufferedReader(isr);
@@ -55,5 +55,5 @@ class SumaArreglos
 		{
 			System.err.println("Error: "+ e.getMessage());
 		}
-  	}
+  }
 }
