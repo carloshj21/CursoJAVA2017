@@ -15,7 +15,6 @@ class Lectura
     {
       //System.out.println("Ingrese el dato a convertir: ")
       cadRec = flujoE.readLine();
-      return cadRec;
     }
     catch (Exception e)
     {
